@@ -1,0 +1,19 @@
+.crop-container {
+    position: relative;
+    padding: 50px;
+    max-width: 100%;  
+    height: 400px;
+}
+
+.crop-avatar {
+    width: 12rem;
+    height: 12rem;
+    background-color: #595C5F;
+    color: #fff;
+    font-size: 5em;
+
+}
+
+#avatarUpload {
+    display: none;
+}

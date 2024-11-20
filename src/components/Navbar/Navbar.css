@@ -1,0 +1,26 @@
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-brand span {
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+#navbar-items .nav-items {
+    margin: 0 1em;
+}

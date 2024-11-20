@@ -1,0 +1,13 @@
+#task {
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+#task .btn-task {
+    background-color: #595c5f;
+    color: #fff;
+}
+
+#task .btn-task:hover {
+    background-color: #464749;
+}

@@ -1,0 +1,83 @@
+.font-size-16 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+#dashboard {
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+#dashboard #card-task {
+    cursor: pointer;
+    transition: .10s;
+}
+
+#dashboard #card-task:hover {
+    transform: scale(1.1);
+}
+
+#dashboard #card-task .card-top p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dashboard #card-task .card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dashboard #card-task .badge {
+    padding: 8px;
+    align-self: flex-end;
+    
+}
+
+#dashboard #card-task .badge-pending {
+    color: #feb602;
+    background-color: rgba(254, 182, 2, .1);
+}
+
+
+#dashboard #card-task .badge-inprogress {
+    color: #0D6EFD;
+    background-color: rgba(13, 110, 253, .1);
+}
+
+#dashboard #card-task .badge-inreview {
+    color: #5c369a;
+    background-color: rgba(92, 54, 154, .1);
+}
+
+#dashboard #card-task .badge-completed {
+    color: #198754;
+    background-color: rgba(25, 135, 84, .1)
+}
+
+#dashboard #card-task .badge-expired {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, .1);
+}
+
+#dashboard #card-family {
+    margin-top: 24px;
+}
+
+#dashboard .card-logo {
+    width: 53px;
+    height: 53px;
+    border: 2px solid #d2d2d2;
+    border-radius: 50px;
+    margin-top: -40px;
+    background-color: #595c5f;
+}
+
+#dashboard .card-icon {
+    font-size: 2em;
+    color: #fff;
+}
+

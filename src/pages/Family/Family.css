@@ -1,0 +1,28 @@
+#family {
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+#family .table-users .td-action{
+    text-align: right;
+}
+
+#family .table-users .td-name{
+    text-align: left;
+}
+
+#family .table-users .btn-remove {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#family .btn-family {
+    background-color: #595c5f;
+    color: #fff;
+}
+
+#family .btn-family:hover {
+    background-color: #464749;
+}

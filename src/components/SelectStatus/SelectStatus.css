@@ -1,0 +1,41 @@
+#status-select .status-select-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#status-select .status-select-bar span {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    font-size: 1.2em;
+    background-color: #595c5f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#status-select .nav-pills .nav-link:not(.active) {
+    background-color: #fff;
+    color: #636669;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#status-select .nav-pills .nav-link {
+    background-color: #595c5f;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#status-select .nav-pills .nav-link {
+    background-color: #595c5f;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#status-select .nav-pills .nav-link:hover {
+    color: #b2b2b3;
+}
