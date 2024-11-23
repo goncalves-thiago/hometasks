@@ -1,8 +1,8 @@
 import {format} from 'date-fns';
 
 // API URL
-export const API_URL = "https://api.hometasks.com.br";
-//export const API_URL = "http://127.0.0.1:8000";
+//export const API_URL = "https://api.hometasks.com.br";
+export const API_URL = "http://127.0.0.1:8000";
 
 // Get initials letters from name
 export function nameInitials(name) {
